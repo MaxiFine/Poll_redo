@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}Complete Poll{% endblock title %}
+
+{% block content %}
+    <h2>Complete Poll</h2>
+    <form method="post">
+        {% csrf_token %}
+        <!-- Render poll questions and choices for user to vote -->
+        <button type="submit">Submit Vote</button>
+    </form>
+{% endblock content %}

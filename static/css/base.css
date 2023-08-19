@@ -1,0 +1,48 @@
+/* css/base.css */
+
+/* Header Styling */
+header {
+    background-color: #212529; /* Dark background color */
+    color: #ffffff; /* Text color for the header */
+    margin-bottom: 20px; /* Add margin to separate header from content */
+}
+
+/* Navbar Brand Text Color */
+.navbar-brand {
+    color: #ffffff; /* Change navbar brand text color to white */
+}
+
+/* Navbar Link Text Color */
+.navbar-nav .nav-link {
+    color: #ffffff; /* Change navbar link text color to white */
+}
+
+/* Adjust outline button styling */
+.btn-outline-primary {
+    border-color: #007bff; /* Change button border color to blue */
+    color: #000000; /* Change button text color to black */
+}
+
+.btn-outline-info {
+    border-color: #17a2b8; /* Change button border color to info color */
+    color: #000000; /* Change button text color to black */
+}
+
+.btn-outline-secondary {
+    border-color: #6c757d; /* Change button border color to secondary color */
+    color: #000000; /* Change button text color to black */
+}
+
+/* Adjust margin and padding for homepage text */
+.jumbotron p.lead {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Add color effect for jumbotron */
+.jumbotron {
+    background: linear-gradient(135deg, #d3d3d3, #343a40); /* Grey to dark grey gradient */
+    color: #ffffff;
+    padding: 30px;
+}
