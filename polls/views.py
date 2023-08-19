@@ -1,12 +1,15 @@
 
 from django.shortcuts import render, redirect
+from django.views.generic import TemplateView
 from django.core.mail import send_mail
 from django.utils.crypto import get_random_string
 from .models import Poll, PollQuestion,  PollParticipant, OneTimePin, PollChoice
 from .forms import PollForm, PollQuestionForm, PollChoiceForm
 
 
-
+# Homepage
+class HomePageView(TemplateView):
+    template_name = 'home.html'
 
 def create_poll(request):
     if request.method == 'POST':
